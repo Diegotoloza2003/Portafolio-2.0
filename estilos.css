@@ -29,6 +29,17 @@ main {
 img {
   max-width: 100%;
 }
+/* Modo Claro */
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Modo Oscuro */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
   
 body {
   font-family: Montserrat, sans-serif;
@@ -50,10 +61,17 @@ header {
   color: white;
   text-align: center;
 }
+header.dark-mode {
+  background: url('img/reygif.com[26tn33aiTi1jkl6H6].gif') no-repeat center center;
+  background-size: cover;
+}
 
 section {
   padding: 20px;
   background-color: #f4f4f4;
+}
+section.dark-mode {
+  background-color: #333;
 }
 
 footer {
@@ -61,9 +79,11 @@ footer {
   color: white;
   text-align: center;
   padding: 10px 0;
-  position: fixed;
   width: 100%;
   bottom: 0;
+}
+footer.dark-mode {
+  background-color: #121212;
 }
 
 #habilidadess {
