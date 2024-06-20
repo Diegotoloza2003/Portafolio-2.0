@@ -1,6 +1,6 @@
 const habilidadess = document.getElementById('habilidadess');
 let scrollAmount = 0;
-let scrollSpeed = 2; // Velocidad de desplazamiento, ajustable
+let scrollSpeed = 1; // Velocidad de desplazamiento, ajustable
 
 function scrollHabilidades() {
     scrollAmount += scrollSpeed;
