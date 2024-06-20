@@ -101,3 +101,14 @@ footer.dark-mode {
   height: 100px;
   margin: 0 10px;
 }
+/* experiecias cartas*/
+.card-container {
+  display: flex;
+  flex-wrap: nowrap; /* Evita que las tarjetas se envuelvan a la siguiente línea */
+  overflow-x: auto; /* Permite el desplazamiento horizontal si las tarjetas no caben en la pantalla */
+}
+
+.card {
+  flex: 0 0 18rem; /* Ancho fijo para las tarjetas */
+  margin-right: 10px; /* Espacio entre las tarjetas */
+}

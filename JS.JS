@@ -23,3 +23,5 @@ toggleDarkModeButton.addEventListener('click', () => {
     });
     document.querySelector('footer').classList.toggle('dark-mode');
 });
+
+//Funcionalidad de mover cartas (EXPERICENCIA)
